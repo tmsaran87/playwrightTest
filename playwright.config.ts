@@ -18,7 +18,7 @@ export default defineConfig({
   use: {
     baseURL,
     testIdAttribute: 'data-test',
-    headless: false,
+    headless: true,
     trace: 'retain-on-failure',
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
